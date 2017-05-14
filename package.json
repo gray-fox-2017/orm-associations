@@ -1,0 +1,23 @@
+{
+  "name": "orm-associations",
+  "version": "1.0.0",
+  "description": "orm-assosiation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gray-fox-2017/orm-associations.git"
+  },
+  "author": "nugraha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gray-fox-2017/orm-associations/issues"
+  },
+  "homepage": "https://github.com/gray-fox-2017/orm-associations#readme",
+  "dependencies": {
+    "sequelize": "^3.30.4",
+    "sqlite3": "^3.1.8"
+  }
+}
