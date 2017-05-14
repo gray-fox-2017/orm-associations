@@ -1,1 +1,1 @@
-# orm-associations
+# orm-student-schema
