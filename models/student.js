@@ -12,7 +12,7 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         student.belongsToMany(models.Teacher,{
-          through: 'StudentTeacher',
+          through: 'StudentTeachers',
           foreign_key: 'student_id'
         })
       }

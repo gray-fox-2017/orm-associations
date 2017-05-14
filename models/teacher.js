@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         Teacher.belongsToMany(models.student,{
-          through: 'StudentTeacher',
+          through: 'StudentTeachers',
           foreign_key: 'teacher_id'
         })
       }
