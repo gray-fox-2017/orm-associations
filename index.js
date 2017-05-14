@@ -41,7 +41,7 @@ function showTeachers() {
     teachers.forEach(teacher => {
       teacher.getStudents()
       .then(students => {
-        console.log(`Guru ${teacher.name} have students: `)
+        console.log(`Guru ${teacher.name}, dengan id ${teacher.id} mempunyai murid: `)
         students.forEach(student => {
           console.log(student.fullName);
         })
@@ -55,7 +55,7 @@ showTeachers()
 function AddConjuntion(){
   db.students_teachers.create({
     id_student: 3,
-    id_teacher: 5
+    id_teacher: 1
   })
   .then(students => {
     console.log('berhasil ditambahkan');
